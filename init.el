@@ -12,3 +12,12 @@
 
 ;; load additional config files if they exist
 (load "~/.emacs.d/config/my-local.el" t)
+
+;; some random stuff
+(set-face-attribute 'default t :font "DejaVu Sans Mono-9" )
+(add-to-list 'erc-modules 'notifications)
+
+(desktop-save-mode 1)
+(custom-set-variables)
+(custom-set-faces
+ '(erc-input-face ((t (:foreground "sky blue")))))
